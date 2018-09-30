@@ -1,0 +1,10 @@
+#List__container {
+  padding: 0 8px;
+  overflow: auto;
+}
+
+#List__tasksContainer {
+    border: 2px solid #f2f2f2;
+    background-color: #bbdefb;
+    width: 100%;
+}

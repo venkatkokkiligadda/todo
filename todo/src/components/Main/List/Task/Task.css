@@ -1,0 +1,30 @@
+.Task__container {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+  padding: 1em 1.5em;
+    vertical-align: middle;
+}
+.Task__container:last-child {
+    border-bottom: 0;
+}
+
+#Task__container:hover {
+  cursor: pointer;
+}
+
+#Task__delete, #Task__complete {
+  cursor: pointer;
+    vertical-align: middle;
+}
+
+.Task__link {
+    text-decoration: underline;
+    vertical-align: middle;
+}
+.Task__link.complete {
+    text-decoration: line-through;
+}
+.Task__link span {
+    vertical-align: middle;
+}
